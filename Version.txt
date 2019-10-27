@@ -1,0 +1,55 @@
+version:3.5
+
+Updates:
+
+Added:
+H264 and Hevc encoding with Nvenc, Vaapi and Qsv GPU hardware acceleration support.
+Support for OpenH264, Kvazaar and AV1 encoders.
+Several bug fixes
+
+Old releases:
+################################################ 3.2 #####################################################
+Updates:
+
+Added:
+Advanced features to configure the H264 codec
+Improvements to import FFmpeg and preview of subtitles  
+
+################################################ 3.1 #####################################################
+Updates:
+
+Added:
+Merge/concatenate video features
+New Look and Feel skins 
+Some bug corrections 
+
+
+################################################ 3.0 #####################################################
+Updates:
+
+Added:
+vlcj library to preview movies and subtitle hardcoding configurations, 
+Remark: VLC player need to be installed, and only works on windows and linux  
+
+FFmpeg filters: crop, scale, deinterlace, rotate
+
+
+################################################# 2.0 #####################################################
+
+Updates:
+
+Added:
+Drag and Drop features, allowing to load video files and subtitles by dropping files over the interface
+A new automatic updating system (Linux and Windows), MacOS users will be redirected to the new update file. 
+
+
+Several bug fixes:
+Save a permanent  output directory to the converted files
+Remove broken seaglass look and feel in windows and MacOS
+Install ORSVC in a second HDD (external to windows file system) 
+New conversion projects can be added to running processes
+Detection of broken video files
+Convert 2 identical videos (same file name) that are located in different directories
+Loading of video files and subtitles with the extensions  in CAPITAL letter
+
+#############################################################################################################
